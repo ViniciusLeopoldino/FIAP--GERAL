@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lateral</title>
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+</head>
+<body>
+
+    <div id="menu">
+        <ul>
+            <li onclick="changeContent('conteudo1')">Perfil</li>
+            <li onclick="changeContent('conteudo2')">Meu Porto</li>
+            <li onclick="changeContent('conteudo3')">Manutenção</li>
+            <li onclick="changeContent('conteudo4')">Oficina Mais Próxima</li>
+            <li onclick="changeContent('conteudo5')">Fale Conosco</li>
+            <li onclick="logout()">Logout</li>
+        </ul>
+    </div>
+
+    <div id="popup" class="popup hidden">
+        <p>Bem-Vindo ao Meu Porto! <br> Aqui você encontra tudo para a saúde do seu veículo.</p>
+    </div>
+    
+
+    <div id="conteudo1" class="conteudo" style="display: block;">
+        <!-- Conteúdo da página para a Opção 1 -->
+        <h1>Meu perfil</h1>
+        <!--<form id="perfilForm">
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="input-group">
+                <label for="Veiculo">Veiculo:</label>
+                <input type="text" id="Veiculo" name="Veiculo" required>
+            </div>
+            <div class="input-group">
+                <label for="Ano">Ano:</label>
+                <input type="text" id="Ano" name="Ano" required>
+            </div>
+            <div class="input-group">
+                <label for="Modelo">Modelo:</label>
+                <input type="text" id="Modelo" name="Modelo" required>
+            </div>
+            <div class="input-group">
+                <label for="Placa">Placa:</label>
+                <input type="text" id="Placa" name="Placa" required>
+            </div>
+            <p></p>
+            <div class="button">
+                <button type="edit" id="editButton">Editar</button>
+            </div>
+        </form>-->
+    </div>
+    <div id="conteudo2" class="conteudo" style="display: none;">
+        <!-- Conteúdo da página para a Opção 2 -->
+        <h1>Meu Porto</h1>
+        <p>Conteudo do meu porto</p>
+
+    </div>
+    <div id="conteudo3" class="conteudo" style="display: none;">
+        <!-- Conteúdo da página para a Opção 3 -->
+        <h1>Manutenção</h1>
+        <p>Conteudo para Manutenção</p>
+    </div>
+    <div id="conteudo4" class="conteudo" style="display: none;">
+        <!-- Conteúdo da página para a Opção 4 -->
+        <h1>Oficina Mais Próxima</h1>
+        <p>Conteudo das oficinas mais próximas</p>
+        <p>Mapa:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58509.477679256255!2d-46.6953251783203!3d-23.574104700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597abf1a28ff%3A0x1b02a58f85e6395e!2zRklBUCAtIEFjbGltYcOnw6Nv!5e0!3m2!1spt-BR!2sbr!4v1712457459798!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="conteudo5" class="conteudo" style="display: none;">
+        <!-- Conteúdo da página para a Opção 5 -->
+        <h1>Fale Conosco</h1>
+        <p>Contato:</p>
+    </div>
+
+
+    <script src="../javaScript/menu.js"></script>
+</body>
+</html>
+
+
+
