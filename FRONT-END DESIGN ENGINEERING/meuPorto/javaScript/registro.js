@@ -38,5 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Redirecionar para a página de login após o registro bem-sucedido
     window.location.href = 'login.html';
+
   });
 });
+
+
