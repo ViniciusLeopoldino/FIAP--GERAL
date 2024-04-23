@@ -11,17 +11,6 @@ function logout() {
     window.location.href = "login.html";
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  const popup = document.getElementById('popup');
 
-  // Exibir o popup após alguns segundos (ex: 1 segundo)
-  setTimeout(function () {
-      popup.classList.remove('hidden');
 
-      // Esconder o popup após mais alguns segundos (ex: 3 segundos)
-      setTimeout(function () {
-          popup.classList.add('hidden');
-      }, 3000); // 3000 milissegundos = 3 segundos
-  }, 1000); // 1000 milissegundos = 1 segundo
-});
 

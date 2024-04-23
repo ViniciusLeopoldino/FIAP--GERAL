@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Verificar as credenciais 
       if (username === "usuario" && password === "senha") {
           // Login bem-sucedido, redirecionar para a página do menu
-          window.location.href = "menu.html";
+          window.location.href = "popup.html";
       } else {
           // Exibir mensagem de erro
           loginMessage.textContent = "Credenciais inválidas. Por favor, tente novamente.";

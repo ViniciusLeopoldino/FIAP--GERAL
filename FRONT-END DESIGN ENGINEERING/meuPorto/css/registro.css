@@ -38,6 +38,6 @@ button {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 800px; /* Define a altura da tela de login */
-    width: 800px; /* Define a largura da tela de login */
+    height: 800px; 
+    width: 800px; 
   }
