@@ -1,0 +1,2192 @@
+{
+  "intents": [
+    {
+      "intent": "confirmacao",
+      "examples": [
+        {
+          "text": "sim"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "diagnostico",
+      "examples": [
+        {
+          "text": "ajuda"
+        },
+        {
+          "text": "ajudar"
+        },
+        {
+          "text": "auto diagnostico"
+        },
+        {
+          "text": "carro com defeito"
+        },
+        {
+          "text": "consertar carro"
+        },
+        {
+          "text": "diagnostico"
+        },
+        {
+          "text": "diagnóstico"
+        },
+        {
+          "text": "eu preciso ajudar"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "me ajuda"
+        },
+        {
+          "text": "me ajude"
+        },
+        {
+          "text": "mim ajuda"
+        },
+        {
+          "text": "mim ajude"
+        },
+        {
+          "text": "poblema"
+        },
+        {
+          "text": "poblema no carro"
+        },
+        {
+          "text": "pobrema"
+        },
+        {
+          "text": "preciso de ajuda"
+        },
+        {
+          "text": "problema"
+        },
+        {
+          "text": "problema no carro"
+        },
+        {
+          "text": "quero ajuda"
+        }
+      ],
+      "description": "auto diagnostico executado pelo bot"
+    },
+    {
+      "intent": "marcaCarro",
+      "examples": [
+        {
+          "text": "aston martin"
+        },
+        {
+          "text": "audi"
+        },
+        {
+          "text": "bmw"
+        },
+        {
+          "text": "byd"
+        },
+        {
+          "text": "caoa chery"
+        },
+        {
+          "text": "chery"
+        },
+        {
+          "text": "chevrolet"
+        },
+        {
+          "text": "citroen"
+        },
+        {
+          "text": "effa"
+        },
+        {
+          "text": "ferrari"
+        },
+        {
+          "text": "fiat"
+        },
+        {
+          "text": "ford"
+        },
+        {
+          "text": "foton"
+        },
+        {
+          "text": "haval"
+        },
+        {
+          "text": "honda"
+        },
+        {
+          "text": "hyundai"
+        },
+        {
+          "text": "iveco"
+        },
+        {
+          "text": "jac"
+        },
+        {
+          "text": "jaguar"
+        },
+        {
+          "text": "jeep"
+        },
+        {
+          "text": "kia"
+        },
+        {
+          "text": "lamborghini"
+        },
+        {
+          "text": "land rover"
+        },
+        {
+          "text": "lexus"
+        },
+        {
+          "text": "maserati"
+        },
+        {
+          "text": "mc laren"
+        },
+        {
+          "text": "mclaren"
+        },
+        {
+          "text": "mercedes"
+        },
+        {
+          "text": "mercedes amg"
+        },
+        {
+          "text": "mercedes benz"
+        },
+        {
+          "text": "mini"
+        },
+        {
+          "text": "mitsubishi"
+        },
+        {
+          "text": "nissan"
+        },
+        {
+          "text": "ora"
+        },
+        {
+          "text": "peugeot"
+        },
+        {
+          "text": "porsche"
+        },
+        {
+          "text": "ram"
+        },
+        {
+          "text": "renault"
+        },
+        {
+          "text": "rolls royce"
+        },
+        {
+          "text": "seres"
+        },
+        {
+          "text": "subaru"
+        },
+        {
+          "text": "suzuki"
+        },
+        {
+          "text": "toyota"
+        },
+        {
+          "text": "volkswagen"
+        },
+        {
+          "text": "volvo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "marcaMoto",
+      "examples": [
+        {
+          "text": "avelloz"
+        },
+        {
+          "text": "bajaj"
+        },
+        {
+          "text": "bmw"
+        },
+        {
+          "text": "bull motors"
+        },
+        {
+          "text": "dafra"
+        },
+        {
+          "text": "ducati"
+        },
+        {
+          "text": "fantic"
+        },
+        {
+          "text": "haojue"
+        },
+        {
+          "text": "harley"
+        },
+        {
+          "text": "harley davidson"
+        },
+        {
+          "text": "harley-davidson"
+        },
+        {
+          "text": "honda"
+        },
+        {
+          "text": "kawasaki"
+        },
+        {
+          "text": "ktm"
+        },
+        {
+          "text": "kymco"
+        },
+        {
+          "text": "mottu"
+        },
+        {
+          "text": "mv agusta"
+        },
+        {
+          "text": "mxf"
+        },
+        {
+          "text": "origem"
+        },
+        {
+          "text": "piaggio"
+        },
+        {
+          "text": "pro tork"
+        },
+        {
+          "text": "royal enfield"
+        },
+        {
+          "text": "shineray"
+        },
+        {
+          "text": "sousa motos"
+        },
+        {
+          "text": "suzuki"
+        },
+        {
+          "text": "triumph"
+        },
+        {
+          "text": "voltz"
+        },
+        {
+          "text": "voltz motors"
+        },
+        {
+          "text": "watts"
+        },
+        {
+          "text": "yamaha"
+        },
+        {
+          "text": "zontes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "negacao",
+      "examples": [
+        {
+          "text": "nao"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "problemasAuto",
+      "examples": [
+        {
+          "text": "alinhamento"
+        },
+        {
+          "text": "amassado"
+        },
+        {
+          "text": "ar condicionado"
+        },
+        {
+          "text": "arranhado"
+        },
+        {
+          "text": "arranhao"
+        },
+        {
+          "text": "arrefecimento"
+        },
+        {
+          "text": "cambio"
+        },
+        {
+          "text": "carburador"
+        },
+        {
+          "text": "carroceria"
+        },
+        {
+          "text": "correia"
+        },
+        {
+          "text": "correia dentada"
+        },
+        {
+          "text": "desgaste"
+        },
+        {
+          "text": "disco de freio"
+        },
+        {
+          "text": "embreagem"
+        },
+        {
+          "text": "entortar roda do carro"
+        },
+        {
+          "text": "escapamento"
+        },
+        {
+          "text": "escapamento estourado"
+        },
+        {
+          "text": "estouro"
+        },
+        {
+          "text": "falha na seta"
+        },
+        {
+          "text": "falta de oleo"
+        },
+        {
+          "text": "farol"
+        },
+        {
+          "text": "freio"
+        },
+        {
+          "text": "freio de mao"
+        },
+        {
+          "text": "frente"
+        },
+        {
+          "text": "frontal"
+        },
+        {
+          "text": "fundir motor"
+        },
+        {
+          "text": "lado"
+        },
+        {
+          "text": "lanterna"
+        },
+        {
+          "text": "lanterna quebrada"
+        },
+        {
+          "text": "lateral"
+        },
+        {
+          "text": "motor"
+        },
+        {
+          "text": "oleo"
+        },
+        {
+          "text": "painel"
+        },
+        {
+          "text": "parabrisa"
+        },
+        {
+          "text": "parachoque"
+        },
+        {
+          "text": "pastilha de freio"
+        },
+        {
+          "text": "pintura"
+        },
+        {
+          "text": "pintura queimada"
+        },
+        {
+          "text": "pneu"
+        },
+        {
+          "text": "pneu careca"
+        },
+        {
+          "text": "pneu desalinhado"
+        },
+        {
+          "text": "pneu descalibrado"
+        },
+        {
+          "text": "pneu furado"
+        },
+        {
+          "text": "pneu murcho"
+        },
+        {
+          "text": "retrovisor"
+        },
+        {
+          "text": "roda"
+        },
+        {
+          "text": "seta"
+        },
+        {
+          "text": "sistema eletrico"
+        },
+        {
+          "text": "suspensao"
+        },
+        {
+          "text": "trambulador"
+        },
+        {
+          "text": "traseira"
+        },
+        {
+          "text": "traseiro"
+        },
+        {
+          "text": "turbina"
+        },
+        {
+          "text": "vidro"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "anoFabricacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1900",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1901",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1902",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1903",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1904",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1905",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1906",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1907",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1908",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1909",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1910",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1911",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1912",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1913",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1914",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1915",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1916",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1917",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1918",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1919",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1920",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1921",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1922",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1923",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1924",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1925",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1926",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1927",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1928",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1929",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1930",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1931",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1932",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1933",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1934",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1935",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1936",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1937",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1938",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1939",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1940",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1941",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1942",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1943",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1944",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1945",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1946",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1947",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1948",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1949",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1950",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1951",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1952",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1953",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1954",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1955",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1956",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1957",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1958",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1959",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1960",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1961",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1962",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1963",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1964",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1965",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1966",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1967",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1968",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1969",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1970",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1971",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1972",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1973",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1974",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1975",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1976",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1977",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1978",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1979",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1980",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1981",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1982",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1983",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1984",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1985",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1986",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1987",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1988",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1989",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1990",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1991",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1992",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1993",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1994",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1995",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1996",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1997",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1998",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1999",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2001",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2002",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2003",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2004",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2005",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2006",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2007",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2008",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2009",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2010",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2011",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2012",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2013",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2014",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2015",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2016",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2017",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2018",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2019",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2020",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2021",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2022",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2023",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2024",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "arcondicionado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ar condicionado",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cambio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cambio",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Carroceria",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "carroceria",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "confirmacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Correia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "correia",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "embreagem",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "embreagem",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escapamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "escapamento",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "freio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "freio",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "motor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "motor",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "placaCarro",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "placa",
+          "patterns": [
+            "[A-Z]{3}[0-9][0-9A-Z][0-9]{2}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "rodas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "roda",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sistemaEletrico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sistema eletrico",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este é o Porto Auto-check. Digite \"diagnóstico\" para começar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_7_1713312764541",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Diagnóstico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para iniciarmos o diagnóstico de seu automóvel, digite a placa do automóvel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1713312764541",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1713313090779"
+      },
+      "conditions": "#diagnostico",
+      "dialog_node": "node_10_1713312782092"
+    },
+    {
+      "type": "standard",
+      "title": "Questionamento problema",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para tentar achar uma solução para seu problema."
+              },
+              {
+                "text": "Selecione o local que está com avarias em seu veículo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Região do problema",
+            "options": [
+              {
+                "label": "Ar condicionado",
+                "value": {
+                  "input": {
+                    "text": "ar condicionado"
+                  }
+                }
+              },
+              {
+                "label": "Câmbio",
+                "value": {
+                  "input": {
+                    "text": "cambio"
+                  }
+                }
+              },
+              {
+                "label": "Carroceria",
+                "value": {
+                  "input": {
+                    "text": "carroceria"
+                  }
+                }
+              },
+              {
+                "label": "Correia dentada",
+                "value": {
+                  "input": {
+                    "text": "correia"
+                  }
+                }
+              },
+              {
+                "label": "Elétrica",
+                "value": {
+                  "input": {
+                    "text": "sistema eletrico"
+                  }
+                }
+              },
+              {
+                "label": "Embreagem",
+                "value": {
+                  "input": {
+                    "text": "embreagem"
+                  }
+                }
+              },
+              {
+                "label": "Escapamento",
+                "value": {
+                  "input": {
+                    "text": "escapamento"
+                  }
+                }
+              },
+              {
+                "label": "Freio",
+                "value": {
+                  "input": {
+                    "text": "freio"
+                  }
+                }
+              },
+              {
+                "label": "Motor",
+                "value": {
+                  "input": {
+                    "text": "motor"
+                  }
+                }
+              },
+              {
+                "label": "Rodas",
+                "value": {
+                  "input": {
+                    "text": "roda"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1713312782092",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1713396887959"
+      },
+      "conditions": "#marcaCarro || #marcaMoto",
+      "dialog_node": "node_1_1713394417773",
+      "previous_sibling": "node_8_1713394189323"
+    },
+    {
+      "type": "standard",
+      "title": "Tentativa res. problemas",
+      "parent": "node_10_1713312782092",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1713830363438"
+      },
+      "conditions": "#problemasAuto",
+      "dialog_node": "node_6_1713396887959",
+      "previous_sibling": "node_1_1713394417773"
+    },
+    {
+      "type": "folder",
+      "title": "Auto-diagnostic",
+      "dialog_node": "node_7_1713312764541",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Finalização",
+      "parent": "node_10_1713312782092",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@confirmacao",
+      "dialog_node": "node_7_1713830363438",
+      "previous_sibling": "node_6_1713396887959"
+    },
+    {
+      "type": "standard",
+      "title": "Modelo do Veículo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para finalizarmos seu cadastro, digite o modelo de seu automóvel conforme o exemplo:"
+              },
+              {
+                "text": "Ex: \"Ford, Ecosport\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1713312782092",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1713394417773"
+      },
+      "conditions": "@anoFabricacao",
+      "dialog_node": "node_8_1713394189323",
+      "previous_sibling": "node_9_1713313090779"
+    },
+    {
+      "type": "standard",
+      "title": "Ano do Automóvel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite agora, o ano de fabricação de seu automóvel. Conforme o exemplo:"
+              },
+              {
+                "text": "Ex: 19xx ou 20xx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1713312782092",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1713394189323"
+      },
+      "conditions": "@placaCarro",
+      "dialog_node": "node_9_1713313090779"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você está com problemas no câmbio, aqui vão 7 formas de identificá-lo.\n"
+              },
+              {
+                "text": "1 - Trancos no câmbio automático.\nCâmbio automático dar pequenos trancos é comum, em especial quando se pisa fundo, em retomadas e subidas de serra. Mas se esses solavancos se tornarem frequentes e ocorrerem durante uma aceleração mais calma e linear, e mesmo a velocidades de cruzeiro, é preciso ficar atento. Isso pode ser problema de baixo nível do fluido de transmissão, ou mesmo de fluido que já está na hora de ser trocado. Veja no manual do veículo os prazos para substituição do óleo e use produtos dentro das especificações do fabricante.\n"
+              },
+              {
+                "text": "2 - Câmbio patinando.\nAquela sensação de que você acelera e o automóvel demora a engrenar, como se a marcha não tivesse sido engatada? Isso não é exclusividade dos modelos com caixa manual. Pior: é um dos típicos sintomas de que o câmbio automático vai dar problema. Esse comportamento de “patinação” pode ser causado por alguma falha na pressão do óleo da transmissão. Outra razão pode ser algum defeito nas molas da válvula reguladora do sistema.\n"
+              },
+              {
+                "text": "3 - Superaquecimento.\nDirigiu por muito tempo e sentiu um cheiro de queimado vindo da parte onde fica a alavanca da transmissão? Pode ser que o conjunto esteja superaquecido. O ideal é parar o automóvel imediatamente e dar um tempo antes de seguir viagem. E levar o veículo o mais rápido possível a uma oficina de confiança. O problema pode ser motivado por baixo nível de fluido ou mesmo a perda das propriedades originais do óleo da transmissão. Lembre-se que a caixa superaquecida pode até quebrar o conjunto e exigir uma troca do câmbio.\n"
+              },
+              {
+                "text": "4 - Barulhos. \nOutro provável sintoma de baixo nível de óleo do câmbio. Transmissão automática foi projetada para trabalhar de forma silenciosa. Ruídos que pareçam peças arranhando ou que remetam a algum componente metálico solto enquanto o carro está em movimento podem ser sinal de que algo não vai bem no conjunto.\n"
+              },
+              {
+                "text": "5 - Mudanças bruscas.\nReduções abruptas de marcha enquanto se pisa de forma normal e gradual no acelerador também não é algo comum nos câmbios automáticos. Se a transmissão dá a impressão de dar “pulos” e efetua reduções bruscas, leve o veículo o quanto antes à oficina ou ao serviço autorizado.\n"
+              },
+              {
+                "text": "6 - Luz no painel.\nSabe aquela luzinha com o símbolo do motor? Se ela acender pode ser indício de problemas no propulsor, mas também indicar sintomas de que o câmbio automático vai dar problema. Fique atento e leve seu automóvel ao mecânico para ter certeza do que você pode enfrentar.\n"
+              },
+              {
+                "text": "7 - Mancha na garagem.\nÓleo no chão onde o carro estava estacionado não obrigatoriamente vem do motor. Pode ser da caixa. E é possível detectar se a mancha é do fluido da transmissão. A substância tem uma cor diferente meio avermelhada, meio marrom claro. Se for o caso, o conjunto do câmbio está com vazamentos e é importante levar o carro imediatamente para revisão. Lembre-se de que, além de ter função de arrefecimento – para manter o sistema trabalhando na temperatura correta -, o fluido da transmissão é fundamental para o funcionamento da transmissão.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@cambio",
+      "dialog_node": "response_1_1713669855436",
+      "previous_sibling": "response_5_1713667641156"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que ótimo, ficamos felizes em lhe ajudar. Para resolução completa do caso, consulte uma mecânica parceira, Porto Seguro, mais próxima de sua casa."
+              },
+              {
+                "text": "Até a próxima."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1713830363438",
+      "conditions": "#confirmacao",
+      "dialog_node": "response_2_1713830668183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para problemas na embreagem, aqui vão 10 formas de identificar este problema."
+              },
+              {
+                "text": "1 - Embreagem dura.\n\nIsso é um dos mais clássicos sinais de que a embreagem vai dar problema. Pode ser ocasionada por uma tensão excessiva ou desregulada do cabo de embreagem. E esse, se romper, você vai ficar na rua – ou ter de passar a marcha do carro “no tempo”, o que nunca é bom. O pedal duro da embreagem pode indicar também uma folga exagerada dos cilindros de embreagem.\n\n2 - Pedal de embreagem sem folga.\n\nO correto é que o carro comece a se movimentar com o pedal da embreagem a partir da metade do curso. Se isso só estiver ocorrendo só quando você praticamente libera o pedal, é sinal de desgaste no sistema.\n\n\n3 - Pedal de embreagem trepidando.\n\nQualquer trepidação excessiva nos pedais não é normal e o da embreagem pode ter diferentes causas. O leque é variado: pode ser desde a instalação dos discos até desgaste dos suportes da transmissão. Cubo de embreagem danificado e mesmo restos de óleo e de graxa podem aumentar o atrito, dificultar o funcionamento dos discos e provocar a tremedeira no pedal quando a embreagem é acionada\n\n4 - Pedal de embreagem barulhento.\n\nAquele chiado ou estalo ao acionar o pedal também está longe da normalidade. A culpa geralmente vem do rolamento, que pode estar nas últimas. Porém a causa também pode estar no desgaste do kit da embreagem como um todo. O ideal é levar logo o carro à oficina pois o problema pode atingir a caixa de câmbio.\n\n5 - Marcha arranhando.\n\nA causa mais comum para isso é o anel sincronizador desgastado. A peça é responsável pelo tempo e acoplamentos corretos da engrenagem. Outras possibilidades são defeitos no garfo que movimenta a engrenagem ou, em casos extremos, falta de fluido no sistema de transmissão.\n\n6 - Câmbio fantasma.\n\nAlavanca que volta ao ponto morto sozinha não significa que seu carro precise de uma sessão de descarrego – talvez seja até o caso, mas não para isso. O trambulador pode ser o problema por trás desta marcha que pula e desengata do nada.\n\n7 - Câmbio se movimenta sozinho.\n\nSe a alavanca se movimenta a cada acelerada é preciso levar o carro para uma revisão. Ainda mais se o comando da transmissão do seu carro for por cabos metálicos. Um coxim do câmbio deteriorado causa folgas no sistema, que vão permitir que o câmbio e, consequentemente, a alavanca se movimentem.\n\n8 - Carro “patinando”.\n\nSabe quando você muda a marcha, solta o pedal da esquerda e o carro demora a tracionar, como se a embreagem ainda estivesse acionada?  É o que os mecânicos também chamam de embreagem patinando ou deslizando. Esse é um dos principais sinais de problemas e a razão geralmente está no disco de embreagem, que pode estar com excesso de resíduos ou deteriorado.\n\n9 - Ruído no câmbio.\n\nSe você ouve um barulho de grilo oriundo da alavanca do câmbio que some quando você pisa na embreagem, fique atento. O defeito provavelmente está na falta de lubrificação do rolamento, peça responsável por ativar o platô. Como o componente é totalmente vedado, é preciso trocá-lo. Contudo, o ruído em ponto morto vindo da transmissão pode ser “natural”, oriundo das engrenagens trabalhando.\n\n10 - Trepidação ao arrancar.\n\nVocê engata a primeira, solta a embreagem devagar, acelera… e o carro parece uma gelatina. Quase certo que a causa está no disco. Isso porque a peça deve estar com desgaste acentuado, o que afeta o seu acoplamento com o motor. Essa tremedeira ao arrancar também pode ter origem… no motor. Mais especificamente nos coxins, responsáveis por filtrar as vibrações geradas pelo processo de combustão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@embreagem",
+      "dialog_node": "response_3_1713671382982",
+      "previous_sibling": "response_4_1713670976717"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para problemas no escapamento, aqui vão 4 formas de identificá-lo.\n\n1 - Barulho alto e trepidação.\n\nOs componentes que prendem o escapamento na carroceria podem se romper, isso ocasionará barulhos embaixo do carro de peças batendo e até mesmo poderá ser percebida uma trepidação do escapamento. A troca destas peças, geralmente borrachas e coxins, têm um custo baixo quando o problema é detectado a tempo e consertado. Se você deixar o escapamento solto por um período muito longo, outras peças podem ser quebradas e o valor da manutenção ficará mais caro que o esperado.\n\n2 - Odores fortes e diferentes.\n\nCaso comece a sentir cheiros muito ácidos ou doces na parte traseira do carro, seu escapamento pode estar com algum furo. Além disso, se sua suspeita for de que gases nocivos estão sendo liberados pelo sistema de escape, procure um mecânico imediatamente para realizar uma inspeção completa em seu carro. Além de causar problemas no automóvel a liberação de gases também pode ser prejudicial para sua família.\n\n3 - Assoalho superaquecido.\n\nSe o sistema de escapamento estiver muito próximo ao assoalho do carro, isso ocasionará um superaquecimento do local. O problema está em alguma peça danificada que mudou a altura do escapamento e precisa ser trocada com urgência. Lembre-se de pedir para seu mecânico fazer o alinhamento da nova peça para que o problema não persista.\n\n4 - Muitos ruídos. \n\nFuros nos tubos e miolos de silenciadores (traseiro ou intermediário) do escapamento fazem o barulho do carro aumentar muito. O defeito só será solucionado trocando a peça inteira. Os problemas no sistema de escape podem ser provenientes de muitos fatores, mas o principal deles é o combustível adulterado, que acaba corroendo todo o sistema de escapamento. Por isso, só abasteça em postos de sua confiança."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@escapamento",
+      "dialog_node": "response_3_1713673656541",
+      "previous_sibling": "response_3_1713671382982"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para problemas no freio, aqui vão 7 sinais para identificá-lo.\n\n1 - Quando você aperta o pedal, o freio assovia ou range?\n\nsso pode ser um sinal de que as pastilhas chegaram ao fim: esses componentes já encostaram em seu suporte, que está “mastigando” o disco. Neste caso, prepare duplamente seu bolso: além das pastilhas, os discos também precisarão de substituição.\n\n2 - O pedal está “fraco” e não transmite firmeza? Ele desce e oferece pouca resistência?\n\nIndício de que o circuito de freio está precisando de uma sangria para tirar o ar que se misturou ao fluido. Trata-se de um problema simples e relativamente barato de ser resolvido.\n\n3 - O pedal de freio está muito duro?\n\nSe você tem que fazer um “senhor” esforço pra frear o carro, é sinal de que a assistência (hidro vácuo), que serve justamente para deixar o pedal mais leve, não está funcionando. Nesse caso, teoricamente, a capacidade de frenagem do veículo não fica comprometida: o problema é que o motorista pode não ter a força suficiente para acionar ao máximo o pedal, ou se assustar diante de seu endurecimento. Em ambos os casos, um acidente pode se tornar inevitável.\n\n4 - O pedal de freio está muito baixo?\n\nNesse caso, existem três possibilidades para o problema no freio: pode ser um sinal de que os componentes do freio estão muito desgastados, ou ser consequência de falta de regulagem do freio traseiro, ou ainda indicar vazamento de fluido.\n\n5 - O freio está vibrando?\n\nNesse caso, não há necessariamente um problema: se o carro for equipado com o sistema ABS, o motorista pode sentir vibrações em freadas de emergência, principalmente em piso de pouco atrito (piso molhado, areia, gelo). O pedal do freio vibra justamente pela atuação do ABS, tentando impedir as rodas de deslizarem.\nPorém, em outras situações ou em carros sem esse sistema, a vibração no freio indica que algum componente do freio (discos ou tambores) estão empenados.\n\n 6 - O carro está puxando quando freia?\n\nSe, ao acionar o freio, o carro puxa para um lado, há sinal de que o sistema não está equilibrado, com problema em um dos lados: o freio de uma das rodas está atuando com maior ou menor intensidade que o das demais.\n\n7 -  luz de freio no painel está acesa?\n\nÉ o mais simples de se identificar entre os defeitos no freio. Em alguns carros, é falta de fluido. Em outros, a indicação é de que o desgaste da pastilha chegou ao seu limite."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@freio",
+      "dialog_node": "response_3_1713673662133",
+      "previous_sibling": "response_3_1713673656541"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para problemas no motor, aqui vão 6 sinais para lidar com atenção.\n\n1 - Superaquecimento. \n\nO primeiro sinal que o carro dá de que algo está errado é por meio do painel de instrumentos, indicando o superaquecimento por meio de uma luz. Primeiramente, desligue o veículo e deixe que ele esfrie para não correr o risco de se queimar. A principal causa do aumento de temperatura é a falta do líquido lubrificante ou até mesmo do aditivo do radiador. Esse aditivo é responsável por fazer com que a água ferva a uma temperatura mais alta e, se não for usado, o carro superaquece. Se houver líquido no radiador, veja se ele tem uma coloração azul ou verde. Se não tiver, faça a troca do líquido e coloque o aditivo adequado para o modelo do veículo.\n\n2- Vazamento de fluidos.\n\nOutra causa para o superaquecimento é o nível do óleo do motor muito baixo ou a perda de eficiência desse material por ele estar muito velho. Os veículos são projetados para rodar sem que seja preciso completar o nível dos fluidos até que a quilometragem rodada ou o tempo de uso chegue ao limite. Com exceção do câmbio, esses sistemas não costumam afetar ou causar problemas no motor, mas são muito importantes para a segurança ao dirigir. Pequenos vazamentos podem levar a acidentes bem sérios.\n\n3 - Combustível adulterado.\n\nCombustível adulterado é uma grande causa de um motor com problema e pode levar a falhas em vários sistemas. Isso acaba dificultando o diagnóstico, uma vez que nem sempre o responsável por gerar o defeito é encontrado. Normalmente o veículo tem um aumento repentino no consumo e começa a falhar. Solventes e produtos químicos podem contaminar o óleo do motor, reduzindo a sua eficiência. Além disso, é possível que ocorra o entupimento e até mesmo a queima dos bicos da injeção eletrônica.\n\n4 - Falha na injeção eletrônica.\n\nInfelizmente, em alguns casos, os danos ao veículo podem ser mais graves devido ao combustível adulterado. Um dos primeiros sinais de que algo não está funcionando corretamente é quando a luz da injeção eletrônica permanece acesa. A injeção eletrônica depende de uma série de sensores para funcionar corretamente e a falha em um deles pode levar a vários problemas, como a perda de potência, o excesso de consumo e a alta emissão de poluentes. Em alguns casos, pode ser necessária a troca da central de injeção. \n\n5 - Velas com defeito ou fora da validade.\n\nOutra questão muito comum são velas de ignição com defeito ou fora do prazo de validade. Normalmente os sinais de que elas não estão em boas condições são o aumento do consumo de combustível, a dificuldade de fazer o veículo pegar e o excesso de fumaça, além de falhas no motor. O que acontece é que, ao pegar um motor com problema, muitas vezes as velas são limpas, mas dificilmente trocadas. Esses componentes têm prazo de validade e precisam ser substituídos, uma vez que sofrem desgaste ao longo do tempo — e dificilmente isso será visível.\n\n6 - Folga das correias.\n\nPor fim, temos as falhas nas correias. Em muitos casos, nota-se um barulho bem agudo vindo do motor, e geralmente a responsável por esse barulho é a correia do alternador. No entanto, existe outro componente que, caso quebre, pode ser fatal para o motor do carro: a correia dentada. Infelizmente ela não costuma dar sinais de que está com problemas, e caso se rompa, pode ocorrer o empenamento de válvulas e grandes danos ao motor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@motor",
+      "dialog_node": "response_3_1713673666330",
+      "previous_sibling": "response_3_1713673662133"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@rodas",
+      "dialog_node": "response_3_1713673670919",
+      "previous_sibling": "response_3_1713673666330"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1713394417773",
+      "disabled": true,
+      "dialog_node": "response_4_1713666734792"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para problemas na correia dentada de seu veículo, leia um pouco sobre esta peça do carro.\n"
+              },
+              {
+                "text": "A funcionalidade que tem a correia dentada é de sincronizar o virabrequim, peça que faz a transferência de força do motor às rodas e comando de válvulas. Esse é o processo que realiza o fluxo de gases no interior do cilindro. A manutenção, revisão e troca da correia dentada é muito importante, pois, caso ela quebre, danos sérios ao motor podem ser causados.\n"
+              },
+              {
+                "text": "O carro pode ter até 4 correias dentadas, sendo elas:\n- De direção hidráulica;\n- Dentada do motor;\n- Do ar condicionado;\n- Do alternador.\nVale lembrar que elas não são iguais. Isso porque, dependendo da sua função, o comprimento e a largura podem variar bastante.\n"
+              },
+              {
+                "text": "Um dos principais cuidados para evitar o rompimento da correia é realizar a troca respeitando sempre as recomendações do manual de cada veículo. Em geral, essa substituição é feita a cada 50 mil km ou a cada 3 anos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@Correia",
+      "dialog_node": "response_4_1713670976717",
+      "previous_sibling": "response_9_1713670243648"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poxa, que pena. Gostaríamos que sua experiência tivesse sido melhor.\nPara resolução completa do caso, consulte uma mecânica parceira, Porto Seguro, mais próxima de sua casa."
+              },
+              {
+                "text": "Até a próxima."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1713830363438",
+      "conditions": "#negacao",
+      "dialog_node": "response_4_1713830865621",
+      "previous_sibling": "response_2_1713830668183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você está com problemas no ar condicionado, aqui vão 8 formas de identificar este erro.\n"
+              },
+              {
+                "text": "1 - Filtro da cabine.\nA peça, também conhecida como filtro de cabine, é a responsável por impedir que resíduos, poeira, pólen, mofo e até mesmo pequenos pedaços de folhas cheguem ao sistema de climatização. Desta forma, garante um ar mais limpo no habitáculo. O ar pode ainda até estar em funcionamento aparentemente normal, mas se ele perdeu eficiência, demora a resfriar o ambiente ou mesmo não gela a cabine como antigamente – e ainda deixa um cheiro de roupa guardada molhada ou mofo -, pode ser um claro sinal de problemas no filtro. Cada fabricante estipula um prazo para a troca do filtro do ar, geralmente com intervalos de até 20 mil km. Mas se seu veículo tem mais de três anos e você trafega por áreas muito poluídas ou com estradas de chão, ou mesmo fica um tempão em congestionamentos, vale fazer a substituição a cada 10 mil km ou um ano. – fique atento que muitos carros 0 km não saem de fábrica com o filtro de cabine.\n"
+              },
+              {
+                "text": "2 - Dutos do ar-condicionado.\nÉ importante também verificar as condições dos dutos do ar-condicionado do carro. Excesso de sujeira acumulada nestas vias podem comprometer também o funcionamento do sistema e seu poder de resfriamento da cabine. Com os dutos impregnados por sujeiras e bactérias, o ambiente interno do veículo é contaminado e os ocupantes passam a respirar um ar muito poluído. Além disso, o ar-condicionado pode acabar forçando o trabalho do compressor de ar, gerando também aumento do consumo de combustível.\n"
+              },
+              {
+                "text": "3 - Ventoinha do condensador.\nO acúmulo de impurezas e sujeira também pode afetar o funcionamento do condensador. O equipamento é o responsável por receber o vento e retirar o calor do gás, que é comprimido com o auxílio de um pequeno ventilador, chamado de ventoinha. Se o condensador está sujo devido a poeiras, folhas ou outras partículas, o fluxo de ar não circula livremente. Isso obstrui o funcionamento da ventoinha e pode impedir ou afetar o resfriamento no interior do carro.\n"
+              },
+              {
+                "text": "4 - Compressor. \nO compressor é a peça que, basicamente, aquece e refrigera o ar. O equipamento tem a função de comprimir o gás refrigerador e o enviar para o condensador, realizando o arrefecimento e, consequentemente, o resfriamento do ar que será jogado dentro do veículo. Porém, o compressor precisa estar devidamente lubrificado para funcionar em sua plenitude. Caso contrário, o ar-condicionado não irá gelar a cabine com eficácia. Ou seja, desgaste ou falta de manutenção da peça podem representar um dos defeitos comuns no ar-condicionado do carro.\n"
+              },
+              {
+                "text": "5 - Fusível queimado.\nLembre-se que o compressor pode não estar funcionando por um problema simples. Verifique, ou leve ao mecânico mais próximo, se o fusível responsável pelo equipamento não está queimado.\n"
+              },
+              {
+                "text": "6 - Vazamento de gás.\nAr-condicionado que não gela e sons tipos de assobios que surgem toda a vez que você liga o sistema podem ser ocasionados por vazamento do gás refrigerante, que tem a função de fazer a troca térmica: absorver calor e o liberar para fora do ambiente. Se há vazamento, o calor permanecerá no espaço e retardará o processo de resfriamento. O vazamento de gás pode ser diagnosticado pelo próprio motorista de forma simples. Faça uma mistura de água e sabão e passe pela tubulação. Em seguida, ligue o ar-condicionado. Se surgirem bolhas, é sinal de que há pontos com falhas de pressão.\n"
+              },
+              {
+                "text": "7 - Mal cheiro vindo do ar condicionado. \nOdores desagradáveis vindos do sistema podem não ser necessariamente um dos defeitos mais comuns no ar-condicionado do carro. Uma sugestão é, antes de levar à oficina, ligar o aquecimento do equipamento na temperatura e velocidade máximas por, pelo menos, 10 minutos. Isso pode dar fim ao cheirinho. Essa prática, por sinal, está prevista no manual do proprietário de muitos automóveis.\n"
+              },
+              {
+                "text": "8 - Higienização do ar condicionado. \nAlém da troca do filtro, é recomendável fazer a higienização do sistema com regularidade. Os preços podem variar de acordo com as concessionárias ou oficinas que você consultar, entretanto, isto pode resolver seu problema de forma fácil e rápida.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@arcondicionado",
+      "dialog_node": "response_5_1713667641156"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para problemas no sistema elétrico, aqui vão X sinais para identificá-los.\n\n1 - Injeção eletrônica.\n\nUm dos principais problemas elétricos no veículo está no sistema de injeção eletrônica. Para identificar pane, basta verificar se o motor continua funcionando quando a luz está acesa: se a luz acendeu e o carro morreu, é sinal de que o sistema elétrico está com defeito.\n\n2 - Bateria.\n\nQuando a luz da bateria acende no painel, o defeito pode ser nela ou no alternador, que pode estar quebrado ou com falhas. Para solucionar esse problema, basta recarregar ou substituir a bateria.\n\n3 - Alternador.\n\nO alternador tem a função de transformar a energia mecânica em energia elétrica para carregar a bateria. Quando isso não ocorre, é sinal de problemas elétricos no veículo. Os sintomas são parecidos com os de pane na bateria, porém é possível vê-los com o carro em movimento: as luzes vão diminuindo e o motor falha.\n\n4 - Correia do alternador.\n\nA correia do alternado pode ressecar, gerando pequenas rupturas que podem fazer a peça se partir e causar pane elétrica. Para evitar esse problema, a recomendação é ficar atento a alguns sinais, como a bomba d´água para de funcionar, a bateria não carregar e a direção hidráulica e o ar condicionado pararem de funcionar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@sistemaEletrico",
+      "dialog_node": "response_7_1713673677557",
+      "previous_sibling": "response_3_1713673670919"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para problemas na carroceria de seu carro, aqui vão 5 formas de identificar este problema.\n"
+              },
+              {
+                "text": "1 - Arranhados.\nCaso seja um risco superficial, não precisa se preocupar: você poderá removê-lo. As calotas, por exemplo, podem até ser trocadas por novas, já que são itens baratos. No entanto, se ele é profundo e há como enxergar uma cor diferente da pintura no fundo, algumas providências serão necessárias. Fique atento, esse é o indicativo de que o corte atravessou as camadas de verniz e de tinta presentes na lataria. Dependendo da profundidade atingida, o dano pode chegar ao primer, que é uma camada de revestimento situada abaixo da pintura, ou ao metal. Nessas situações, existem chances maiores de acontecer uma corrosão, que também pode ser prejudicial para outras partes do veículo.\n"
+              },
+              {
+                "text": "2 - Para-brisas. \nO para-brisa pode ser trincado por mais de um fator. Choque com pedras e ou outros objetos pode causar o problema no vidro. Outra razão comum é o choque término. O vidro superaquecido – por estar horas sob o sol, por exemplo – recebe um fluxo de ar muito frio de repente – ar-condicionado direcionado –  e não suporta a súbita variação térmica.\n"
+              },
+              {
+                "text": "3 - Para-choques. \nNa visão de muitas pessoas, o para-choque é uma peça simples e sem muita importância, mas, essa peça tem função primordial no carro, como por exemplo, é destinado diretamente à segurança do carro, pois desempenha o papel de amortecer o impacto das batidas. Sem ele, o motorista ficaria muito mais vulnerável e as colisões causariam um dano muito mais grave, tanto para o carro quando para o motorista. Por ser uma peça resistente, porém flexível, os amassados são danos mais comuns no para-choque. Nestes casos, a sua recuperação é muito indicada, pois, para os especialistas, é um trabalho simples e que pode ser feito em poucos dias. Em alguns casos basta simplesmente desamassar, sem a necessidade de retoques na pintura do carro. Isso interfere até no preço, que vai sair muito mais em conta. Riscos e arranhões no para-choque também são, em tese, de fácil reparo. Talvez demande um pouco mais de tempo pela necessidade de lixar e pintar novamente. Mas, de novo, é um caso que há indicação de reparação por ser simples e com um custo baixo.\n"
+              },
+              {
+                "text": "4 - Retrovisores.\nSeja qual for a situação do seu, é recomendado que se tenha uma certa urgência em solucioná-la, pois trata-se de um acessório obrigatório segundo a legislação brasileira de trânsito e, além de oferecer riscos à sua segurança, o uso do retrovisor quebrado ou a ausência dele são consideradas infrações graves. Considere o modelo do retrovisor do seu automóvel, as peças daqueles que possuem regulagem manual são diferentes das que contam com regulagem elétrica. O espelho de retrovisor do lado direito normalmente é diferente do que fica do lado esquerdo. O espelho do motorista é plano, enquanto o do lado do passageiro é convexo, com curvatura que oferece uma visão mais panorâmica — proporcionando maior visibilidade dos veículos que estão vindo pela direita. Verifique com um especialista cada peça que foi danificada e que pode ser substituída do seu retrovisor, se apenas a carcaça foi afetada ou se o mecanismo também precisará ser trocado.\n"
+              },
+              {
+                "text": "5 - Amassados (Laterais, frontais ou traseiros).\nNão deixe os detalhes se acumularem. A primeira dica para que seja possível recuperar a lataria amassada do veículo é evitar o acúmulo dos danos. Isso porque quando você vai deixando os riscos para serem resolvidos depois, podem até causar ferrugens que corroem a lataria. No caso de amassados e arranhões superficiais, que atingem apenas a camada de verniz do veículo, a cristalização pode ser utilizada na recuperação. Esse processo se trata da aplicação de uma camada de resina que retira os riscos, protege a pintura e dá mais brilho a ela. Assim, traz uma solução ao problema e ainda melhora a estética do automóvel.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Isto foi capaz de te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim ",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1713396887959",
+      "conditions": "@Carroceria",
+      "dialog_node": "response_9_1713670243648",
+      "previous_sibling": "response_1_1713669855436"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "generative_ai": {
+      "slot_filling": {
+        "enabled": false
+      }
+    },
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Sprint 1  - ChatBot-dialog"
+}
