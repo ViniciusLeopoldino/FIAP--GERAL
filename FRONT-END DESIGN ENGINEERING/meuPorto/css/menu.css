@@ -64,7 +64,7 @@ body {
   border-radius: 30px; /* Define os cantos arredondados do contêiner */
   background-color: #d9d9d9; /* Cor de fundo do contêiner */
   color: #000000; /* Cor do texto dentro do contêiner */
-  width: 100%; /* Largura do contêiner */
+  width: 98%; /* Largura do contêiner */
   height: 500px; /* Altura do contêiner */
   padding-top: 10px; /* Espaçamento no topo do contêiner */
 }
@@ -73,15 +73,15 @@ body {
   text-align: center; /* Alinha o texto centralmente */
 }
 
-#container3 .button {
+#container3 button {
   text-align: center; /* Alinha o texto do botão centralmente */
-  padding: 10px 20px; /* Espaçamento interno do botão */
+  padding: 20px 550px; /* Espaçamento interno do botão */
   background-color: #30C5FF; /* Cor de fundo do botão */
   color: #fff; /* Cor do texto do botão */
   border: none; /* Remove a borda do botão */
   border-radius: 30px; /* Define os cantos arredondados do botão */
   cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 /* Estilo para outro contêiner */
@@ -119,16 +119,6 @@ body {
   margin: 0px; /* Remove as margens padrão */
 }
 
-#container4 .button {
-  background-position: center;
-  text-align: center; /* Alinha o texto do botão centralmente */
-  padding: 10px 20px; /* Espaçamento interno do botão */
-  background-color: #30C5FF; /* Cor de fundo do botão */
-  color: #fff; /* Cor do texto do botão */
-  border: none; /* Remove a borda do botão */
-  border-radius: 30px; /* Define os cantos arredondados do botão */
-  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
-}
 
 #container4 ul li {
   padding: 10px 20px; /* Espaçamento interno dos itens da lista */
@@ -164,16 +154,52 @@ iframe {
 }
 
 /* Estilo para botões */
-button {
+#container4 button {
   padding: 10px 20px; /* Espaçamento interno do botão */
   background-color: #30C5FF; /* Cor de fundo do botão */
   color: #fff; /* Cor do texto do botão */
   border: none; /* Remove a borda do botão */
-  border-radius: 5px; /* Define os cantos arredondados do botão */
+  border-radius: 30px; /* Define os cantos arredondados do botão */
   cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
 }
 
 /* Classe para ocultar elementos */
 .hidden {
   display: none; /* Oculta elementos com essa classe */
+}
+
+#faleConosco {
+  border-radius: 30px; /* Define os cantos arredondados do contêiner */
+  background-color: #d9d9d9; /* Cor de fundo do contêiner */
+  color: #000000; /* Cor do texto dentro do contêiner */
+  width: 98%; /* Largura do contêiner */
+  height: 500px; /* Altura do contêiner */
+  padding-top: 10px; /* Espaçamento no topo do contêiner */
+}
+
+#faleConosco .input-group input{
+  margin-left: 30px;
+  border-radius: 30px;
+  width: 1100px;
+}
+
+#faleConosco .suaMsg input {
+  border: none;
+  margin: 30px;
+  width: 1100px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+#faleConosco button {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  background-color: #30C5FF; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 30px; /* Define os cantos arredondados do botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
 }

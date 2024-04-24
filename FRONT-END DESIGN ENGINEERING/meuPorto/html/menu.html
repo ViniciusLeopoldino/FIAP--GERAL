@@ -76,47 +76,47 @@
         <div id="container4">
             <ul>
                 <form id="cadastro">
-                        <div class="input-group">
-                            <label for="nome">Ultima Manutenção:</label>
-                            <div id="nome" class="text-content">Pastilha de Freio</div>
-                        </div>
-                        <div class="input-group">
-                            <label for="nome">Data:</label>
-                            <div id="nome" class="text-content">01/12/2023</div>
-                        </div>
-                        <br>
-                        <div class="input-group2">
-                            <label for="nome">Quilometragem:</label>
-                            <div id="nome" class="text-content">60.000</div>
-                        </div>
-                        <div class="input-group2">
-                            <label for="nome">Tipo:</label>
-                            <div id="nome" class="text-content">Corretiva</div>
-                        </div>
-                        <br>
-                        <p></p>
-                        <div class="input-group3">
-                            <label for="nome">Proxima Manutenção:</label>
-                            <div id="nome" class="text-content">Correia Dentada</div>
-                        </div>
-                        <div class="input-group3">
-                            <label for="nome">Data:</label>
-                            <div id="nome" class="text-content">22/01/2024</div>
-                        </div>
-                        <br>
-                        <div class="input-group4">
-                            <label for="nome">Quilometragem:</label>
-                            <div id="nome" class="text-content">75.000</div>
-                        </div>
-                        <div class="input-group4">
-                            <label for="nome">Tipo:</label>
-                            <div id="nome" class="text-content">Preventiva</div>
-                        </div>
-                    </form>
+                    <div class="input-group">
+                        <label for="nome">Ultima Manutenção:</label>
+                        <div id="nome" class="text-content">Pastilha de Freio</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="nome">Data:</label>
+                        <div id="nome" class="text-content">01/12/2023</div>
+                    </div>
                     <br>
-            <div class="button">
-                <button type="link" id="linkButton">Agendar Nova Manutenção</button>
-            </div>
+                    <div class="input-group2">
+                        <label for="nome">Quilometragem:</label>
+                        <div id="nome" class="text-content">60.000</div>
+                    </div>
+                    <div class="input-group2">
+                        <label for="nome">Tipo:</label>
+                        <div id="nome" class="text-content">Corretiva</div>
+                    </div>
+                    <br>
+                    <p></p>
+                    <div class="input-group3">
+                        <label for="nome">Proxima Manutenção:</label>
+                        <div id="nome" class="text-content">Correia Dentada</div>
+                    </div>
+                    <div class="input-group3">
+                        <label for="nome">Data:</label>
+                        <div id="nome" class="text-content">22/01/2024</div>
+                    </div>
+                    <br>
+                    <div class="input-group4">
+                        <label for="nome">Quilometragem:</label>
+                        <div id="nome" class="text-content">75.000</div>
+                    </div>
+                    <div class="input-group4">
+                        <label for="nome">Tipo:</label>
+                        <div id="nome" class="text-content">Preventiva</div>
+                    </div>
+                </form>
+                <br>
+                <div class="button">
+                    <button type="link" id="linkButton">Agendar Nova Manutenção</button>
+                </div>
         </div>
     </div>
 
@@ -136,8 +136,23 @@
     <!-- Conteúdo do menu Fale Conosco -->
     <div id="conteudo5" class="conteudo" style="display: none;">
         <h1>Fale Conosco</h1>
-        <!-- Informações de contato -->
-        <p>Contato:</p>
+        <form id="faleConosco">
+            
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="input-group">
+                <label for="nome">E-mail:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="suaMsg">
+                <label for="nome">Deixe sua mensagem:</label>
+                <input type="text" id="text" name="text" required>
+            </div>
+            <div class="button">
+                <button type="link" id="linkButton">Enviar</button>
+            </div>
     </div>
 
     <!-- Link para o arquivo JavaScript -->

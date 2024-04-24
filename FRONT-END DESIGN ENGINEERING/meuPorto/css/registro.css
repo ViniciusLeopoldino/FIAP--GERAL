@@ -18,7 +18,7 @@ body {
 .input-group input,
 .input-group select {
   width: 90%;
-  padding: 8px;
+  padding: 9px;
   border-radius: 30px;
   border: 1px solid #ccc;
 }
@@ -28,7 +28,7 @@ button {
   background-color: #30C5FF;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
   }
 
@@ -36,8 +36,8 @@ button {
     text-align: center;
     background-color: #d9d9d9;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
     height: 800px; 
     width: 800px; 
   }
