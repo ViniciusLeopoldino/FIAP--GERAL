@@ -22,36 +22,53 @@
             <li onclick="logout()">Logout</li>
         </ul>
     </div>
-
     <!-- Conteúdo do menu Perfil -->
-    <div id="conteudo1" class="conteudo" style="display: block;">
+    <div id="conteudo1" class="conteudo" style="display: none;">
         <h1>Meu perfil</h1>
-
-        <!-- Container para dados pessoais -->
         <div id="container">
-            <h2>Dados Pessoais</h2>
-            <ul>
-                <li>Nome:</li>
-                <li>CPF:</li>
-                <li>Telefone:</li>
-                <li>CEP:</li>
-            </ul>
-        </div>
-
-        <br>
-
-        <!--Container para dados do veículo -->
-        <div id="container">
-            <h2>Dados do Veiculo</h2>
-            <ul>
-                <li>Modelo:</li>
-                <li>Ano:</li>
-                <li>Placa:</li>
-                <li>Cor:</li>
-            </ul>
+                <h2>Dados pessoais</h2>
+                <div class="input-group">
+                    <label for="nome">Nome:</label>
+                    <div id="nome" class="text-content">João da Silva</div>
+                </div>
+                <div class="input-group">
+                    <label for="nome">CPF:</label>
+                    <div id="nome" class="text-content">444.555.666-77</div>
+                </div>
+                <br>
+                <div class="input-group2">
+                    <label for="nome">Telefone:</label>
+                    <div id="nome" class="text-content">(11) 9 1122-3344</div>
+                </div>
+                <div class="input-group2">
+                    <label for="nome">CEP:</label>
+                    <div id="nome" class="text-content">03121-020</div>
+                </div>
+                <br>
+                <p></p>
+                <h2>Dados do Veículo</h2>
+                <div class="input-group3">
+                    <label for="nome">Moledo:</label>
+                    <div id="nome" class="text-content">Fastback</div>
+                </div>
+                <div class="input-group3">
+                    <label for="nome">Ano:</label>
+                    <div id="nome" class="text-content">2024</div>
+                </div>
+                <br>
+                <div class="input-group4">
+                    <label for="nome">Placa:</label>
+                    <div id="nome" class="text-content">ABC1d23</div>
+                </div>
+                <div class="input-group4">
+                    <label for="nome">Cor:</label>
+                    <div id="nome" class="text-content">Vermelho</div>
+                </div>
+                <div class="button">
+                    <button type="link" id="linkButton">Editar</button>
+                </div>
         </div>
     </div>
-
     <!-- Conteúdo do menu Meu Porto -->
     <div id="conteudo2" class="conteudo" style="display: none;">
         <h1>Meu Porto</h1>
