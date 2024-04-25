@@ -33,7 +33,7 @@ body {
   .input-group select {
     width: 90%;
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 30px;
     border: 1px solid #ccc;
   }
   
@@ -42,7 +42,7 @@ body {
     background-color: #30C5FF;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
   }
 

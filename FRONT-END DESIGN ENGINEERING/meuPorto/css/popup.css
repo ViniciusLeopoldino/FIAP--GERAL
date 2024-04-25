@@ -16,10 +16,9 @@ button {
   padding: 10px 20px;
   background-color: #30C5FF;
   color: #fff;
-  border: none;
+  border-color: black;
   border-radius: 25px;
   cursor: pointer;
-  border-color: gray;
   }
 
 
