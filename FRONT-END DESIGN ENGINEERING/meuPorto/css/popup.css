@@ -11,5 +11,15 @@
     border-radius: 8px; /* Define os cantos arredondados do popup */
     z-index: 9999; /* Garante que o popup esteja acima de outros elementos */
   }
-  
+
+button {
+  padding: 10px 20px;
+  background-color: #30C5FF;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  }
+
+
   
