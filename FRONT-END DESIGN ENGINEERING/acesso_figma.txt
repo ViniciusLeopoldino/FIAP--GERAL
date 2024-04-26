@@ -1,3 +1,0 @@
-Atenção! Realizar login com Google.
-login: fiap.challengeporto@gmail.com
-senha: #Fiap2024
