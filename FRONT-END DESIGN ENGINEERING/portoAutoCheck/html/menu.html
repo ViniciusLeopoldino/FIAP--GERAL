@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lateral</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+</head>
+
+<body>
+    <!-- Menu lateral -->
+    <div id="menu">
+        <ul>
+            <!-- Botões menu lateral -->
+            <li onclick="changeContent('conteudo1')">Perfil</li>
+            <li onclick="changeContent('conteudo2')">Porto Auto-Check</li>
+            <li onclick="changeContent('conteudo3')">Manutenção</li>
+            <li onclick="changeContent('conteudo4')">Oficina Mais Próxima</li>
+            <li onclick="changeContent('conteudo5')">Fale Conosco</li>
+            <li onclick="logout()">Logout</li>
+        </ul>
+    </div>
+    <!-- Conteúdo do menu Perfil -->
+    <div id="conteudo1" class="conteudo" style="display: none;">
+        <h1>Meu perfil</h1>
+        <div id="container">
+                <h2>Dados pessoais</h2>
+                <div class="input-group">
+                    <label for="nome">Nome:</label>
+                    <div id="nome" class="text-content">João da Silva</div>
+                </div>
+                <div class="input-group">
+                    <label for="nome">CPF:</label>
+                    <div id="nome" class="text-content">444.555.666-77</div>
+                </div>
+                <br>
+                <div class="input-group2">
+                    <label for="nome">Telefone:</label>
+                    <div id="nome" class="text-content">(11) 9 1122-3344</div>
+                </div>
+                <div class="input-group2">
+                    <label for="nome">CEP:</label>
+                    <div id="nome" class="text-content">03121-020</div>
+                </div>
+                <br>
+                <p></p>
+                <h2>Dados do Veículo</h2>
+                <div class="input-group3">
+                    <label for="nome">Moledo:</label>
+                    <div id="nome" class="text-content">Fiat Fastback</div>
+                </div>
+                <div class="input-group3">
+                    <label for="nome">Ano:</label>
+                    <div id="nome" class="text-content">2024</div>
+                </div>
+                <br>
+                <div class="input-group4">
+                    <label for="nome">Placa:</label>
+                    <div id="nome" class="text-content">ABC1d23</div>
+                </div>
+                <div class="input-group4">
+                    <label for="nome">Cor:</label>
+                    <div id="nome" class="text-content">Vermelho</div>
+                </div>
+                <div class="button">
+                    <button type="link" id="linkButton">Editar</button>
+                </div>
+        </div>
+    </div>
+    <!-- Conteúdo do menu Meu Porto -->
+    <div id="conteudo2" class="conteudo" style="display: none;">
+        <h1>Meu Porto</h1>
+        <!-- Container para autoatendimento -->
+        <div id="container3">
+            <h2>Autoatendimento</h2>
+            <br>
+            <!-- Botões de auto diagnóstico e orçamento -->
+            <div class="button">
+                <button type="link" id="linkButton">Iniciar Autodiagnóstico</button>
+            </div>
+            <div class="button">
+                <button type="link" id="linkButton">Iniciar Auto Orçamento</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteúdo do menu Manutenção -->
+    <div id="conteudo3" class="conteudo" style="display: none;">
+        <h1>Manutenções</h1>
+        <!-- Container para últimas e próximas manutenções -->
+        <div id="container4">
+            <ul>
+                <form id="cadastro">
+                    <div class="input-group">
+                        <label for="nome">Ultima Manutenção:</label>
+                        <div id="nome" class="text-content">Pastilha de Freio</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="nome">Data:</label>
+                        <div id="nome" class="text-content">01/12/2023</div>
+                    </div>
+                    <br>
+                    <div class="input-group2">
+                        <label for="nome">Quilometragem:</label>
+                        <div id="nome" class="text-content">60.000</div>
+                    </div>
+                    <div class="input-group2">
+                        <label for="nome">Tipo:</label>
+                        <div id="nome" class="text-content">Corretiva</div>
+                    </div>
+                    <br>
+                    <p></p>
+                    <div class="input-group3">
+                        <label for="nome">Proxima Manutenção:</label>
+                        <div id="nome" class="text-content">Correia Dentada</div>
+                    </div>
+                    <div class="input-group3">
+                        <label for="nome">Data:</label>
+                        <div id="nome" class="text-content">22/01/2024</div>
+                    </div>
+                    <br>
+                    <div class="input-group4">
+                        <label for="nome">Quilometragem:</label>
+                        <div id="nome" class="text-content">75.000</div>
+                    </div>
+                    <div class="input-group4">
+                        <label for="nome">Tipo:</label>
+                        <div id="nome" class="text-content">Preventiva</div>
+                    </div>
+                </form>
+                <br>
+                <div class="button">
+                    <button type="link" id="linkButton">Agendar Nova Manutenção</button>
+                </div>
+        </div>
+    </div>
+
+    <!-- Conteúdo do menu Oficina Mais Próxima -->
+    <div id="conteudo4" class="conteudo" style="display: none;">
+        <h1>Oficina Mais Próxima</h1>
+        <!-- Conteúdo das oficinas mais próximas -->
+        <p>Conteudo das oficinas mais próximas</p>
+        <p>Mapa:</p>
+        <!-- Mapa das oficinas -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58509.477679256255!2d-46.6953251783203!3d-23.574104700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597abf1a28ff%3A0x1b02a58f85e6395e!2zRklBUCAtIEFjbGltYcOnw6Nv!5e0!3m2!1spt-BR!2sbr!4v1712457459798!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Conteúdo do menu Fale Conosco -->
+    <div id="conteudo5" class="conteudo" style="display: none;">
+        <h1>Fale Conosco</h1>
+        <form id="faleConosco">
+            
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="input-group">
+                <label for="nome">E-mail:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="suaMsg">
+                <label for="nome">Deixe sua mensagem:</label>
+                <input type="text" id="text" name="text" required>
+            </div>
+            <div class="button">
+                <button type="link" id="linkButton">Enviar</button>
+            </div>
+    </div>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="../javaScript/menu.js"></script>
+</body>
+
+</html>
