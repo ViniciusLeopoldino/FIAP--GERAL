@@ -1,0 +1,25 @@
+/* Estilo para o popup */
+#popup {
+    text-align: center; /* Alinha o texto centralmente */
+    position: absolute; /* Posiciona o popup de forma absoluta */
+    top: 50%; /* Posiciona o popup no centro vertical da tela */
+    left: 50%; /* Posiciona o popup no centro horizontal da tela */
+    transform: translate(-50%, -50%); /* Centraliza o popup horizontal e verticalmente */
+    background-color: #30C5FF; /* Cor de fundo do popup */
+    color: #fff; /* Cor do texto dentro do popup */
+    padding: 20px; /* Espaçamento interno do popup */
+    border-radius: 8px; /* Define os cantos arredondados do popup */
+    z-index: 9999; /* Garante que o popup esteja acima de outros elementos */
+  }
+
+button {
+  padding: 10px 20px;
+  background-color: #30C5FF;
+  color: #fff;
+  border-color: black;
+  border-radius: 25px;
+  cursor: pointer;
+  }
+
+
+  
