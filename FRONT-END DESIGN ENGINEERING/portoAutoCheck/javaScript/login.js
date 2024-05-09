@@ -13,6 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // Redirecionar para a página de registro
         window.location.href = "registro.html";
     });
+
+    const resetButton = document.getElementById("resetButton");
+    resetButton.addEventListener("click", function() {
+    // Redirecionar para a página de registro
+    window.location.href = "rSenha.html";
+});
   });
   
 
