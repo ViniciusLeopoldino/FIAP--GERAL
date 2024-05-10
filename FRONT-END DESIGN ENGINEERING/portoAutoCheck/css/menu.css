@@ -64,8 +64,8 @@ body {
   border-radius: 30px; /* Define os cantos arredondados do contêiner */
   background-color: #d9d9d9; /* Cor de fundo do contêiner */
   color: #000000; /* Cor do texto dentro do contêiner */
-  width: 98%; /* Largura do contêiner */
-  height: auto; /* Altura do contêiner */
+  width: 380px; /* Largura do contêiner */
+  height: 380px; /* Altura do contêiner */
   padding-top: 10px; /* Espaçamento no topo do contêiner */
 }
 
@@ -81,7 +81,7 @@ body {
   border: none; /* Remove a borda do botão */
   border-radius: 30px; /* Define os cantos arredondados do botão */
   cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
-  margin-bottom: 20px; /* Espaçamento inferior */
+  margin-bottom: 70px; /* Espaçamento inferior */
 }
 
 /* Estilo para outro contêiner */
@@ -121,7 +121,6 @@ body {
   padding: 10px; /* Remove o preenchimento padrão */
   margin: 0px; /* Remove as margens padrão */
 }
-
 
 #container4 ul li {
   padding: 10px 20px; /* Espaçamento interno dos itens da lista */
@@ -211,4 +210,3 @@ button {
   display: block; /* Torna o botão um bloco */
   margin: 10px auto; /* Margem automática */
 }
-

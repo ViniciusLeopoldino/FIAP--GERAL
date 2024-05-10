@@ -15,12 +15,12 @@ body {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
-    height: 320px; /* Define a altura da tela de login */
-    width: 300px; /* Define a largura da tela de login */
+    height: 400px; 
+    width: 500px; 
   }
   
   .input-group {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   
   .input-group label {
