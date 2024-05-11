@@ -1,0 +1,216 @@
+[
+    {
+        "id": "a276d9405b6fb26a",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e1f0caead385cb85",
+        "type": "file in",
+        "z": "a276d9405b6fb26a",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 320,
+        "y": 640,
+        "wires": [
+            [
+                "928dbaec285d7283",
+                "56921d2f2f2fc9ea"
+            ]
+        ]
+    },
+    {
+        "id": "928dbaec285d7283",
+        "type": "json",
+        "z": "a276d9405b6fb26a",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 470,
+        "y": 640,
+        "wires": [
+            [
+                "166044bc5457d1d4"
+            ]
+        ]
+    },
+    {
+        "id": "f7a10ee288b9e506",
+        "type": "function",
+        "z": "a276d9405b6fb26a",
+        "name": "ProcIN",
+        "func": "msg.filename = 'C:\\Users\\logonrmlocal\\Desktop\\teste.json'\nmsg.params = {\n    'session_id': msg.payload.chatId\n};\nmsg.entrada_usuario = msg.payload.content;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 640,
+        "wires": [
+            [
+                "e1f0caead385cb85"
+            ]
+        ]
+    },
+    {
+        "id": "e81e210528f54449",
+        "type": "telegram receiver",
+        "z": "a276d9405b6fb26a",
+        "name": "",
+        "bot": "",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 350,
+        "y": 500,
+        "wires": [
+            [
+                "f7a10ee288b9e506"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "56921d2f2f2fc9ea",
+        "type": "debug",
+        "z": "a276d9405b6fb26a",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "166044bc5457d1d4",
+        "type": "function",
+        "z": "a276d9405b6fb26a",
+        "name": "ProcIN WA",
+        "func": "// Percorrendo a lista de dicionários carregada o arquivo JSON\nif (msg.payload.length == 0) {\n    msg.index_usuario = \"sem cadastro\";\n} else {\n    for (let i = 0; i < msg.payload.length; i++) {\n        // Verificando se a chave 'user' é igual ao chatId/session_id atual\n        if (msg.payload[i].user === msg.params.session_id) {\n            msg.additional_context = {\n                \"cep\": msg.payload[i].cep,\n                \"email\": msg.payload[i].email,\n                \"telefone\": msg.payload[i].telefone,\n            }\n            msg.index_usuario = i;\n            break;\n        } else {\n            // Se não encontrar, então o usuário ainda não foi cadastrado\n            msg.index_usuario = \"sem cadastro\";\n        }\n    }\n}\nnode.warn(msg.index_usuario) // Print sem usar debug\nmsg.arquivo = msg.payload;  // Salvando o arquivo lido em outra variável\nmsg.payload = msg.entrada_usuario;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 640,
+        "wires": [
+            [
+                "0b4ae55bddd719a6"
+            ]
+        ]
+    },
+    {
+        "id": "5de3186c5f361c97",
+        "type": "function",
+        "z": "a276d9405b6fb26a",
+        "name": "ProcOUT",
+        "func": "msg.payload = {\n    'chatId': msg.params.session_id,\n    'content': msg.saida_wa,\n    'type': \"message\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 780,
+        "wires": [
+            [
+                "3fb2af8bcd766ece"
+            ]
+        ]
+    },
+    {
+        "id": "2eb5886629e674b8",
+        "type": "function",
+        "z": "a276d9405b6fb26a",
+        "name": "ProcVAL",
+        "func": "//Pegando as informacoes do contexto do WA\nif (\"user_defined\" in msg.payload.context.skills[\"main skill\"]) {\n    var temp = msg.payload.context.skills[\"main skill\"].user_defined;\n     if(\"cep\" in temp){\n        var cep = temp.cep;\n     }else{\n        var cep = null;\n     }\n     if(\"telefone\" in temp){\n        var telefone = temp.telefone;\n     }else{\n        var telefone = null;\n     }\n    if(\"email\" in temp){\n        var email = temp.email;\n    }else{\n        var email = null;\n    }\n}\n\n// Realizando o cadastro no arquivo base_dados\nconst novoObjeto = {\n    'user':msg.params.session_id,\n    'cep':cep,\n    'email':email,\n    'telefone':telefone\n};\n    if(msg.index_usuario == \"sem cadastro\"){\n    //Se o usuario nao tiver cadastro ainda\n    msg.arquivo.push(novoObjeto)\n}\n    else{\n    //Se o usuario já estiver cadastrado\n    msg.arquivo[msg.index_usuario]=novoObjeto\n}\nmsg.saida_wa = msg.payload.output.generic[0].text;\nmsg.payload = msg.arquivo;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 780,
+        "wires": [
+            [
+                "af04e920fa23a416"
+            ]
+        ]
+    },
+    {
+        "id": "0b4ae55bddd719a6",
+        "type": "watson-assistant-v2",
+        "z": "a276d9405b6fb26a",
+        "name": "WA",
+        "service-endpoint": "",
+        "assistant_id": "",
+        "debug": false,
+        "restart": false,
+        "return_context": true,
+        "alternate_intents": false,
+        "multisession": true,
+        "timeout": "",
+        "optout-learning": false,
+        "persist-session-id": false,
+        "x": 170,
+        "y": 780,
+        "wires": [
+            [
+                "2eb5886629e674b8"
+            ]
+        ]
+    },
+    {
+        "id": "af04e920fa23a416",
+        "type": "file",
+        "z": "a276d9405b6fb26a",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 520,
+        "y": 780,
+        "wires": [
+            [
+                "5de3186c5f361c97"
+            ]
+        ]
+    },
+    {
+        "id": "3fb2af8bcd766ece",
+        "type": "telegram sender",
+        "z": "a276d9405b6fb26a",
+        "name": "",
+        "bot": "",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 450,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    }
+]
