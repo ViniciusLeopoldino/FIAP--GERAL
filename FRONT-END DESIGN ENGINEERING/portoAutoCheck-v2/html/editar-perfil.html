@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edite suas informações</title>
+    <link rel="stylesheet" type="text/css" href="../css/editar-perfil.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu perfil</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="edit">
+                <h2>Editar Dados Pessoais</h2>
+                <div class="input-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="input-group">
+                    <label for="CPF">CPF:</label>
+                    <input type="text" id="Veiculo" name="Veiculo">
+                </div>
+                <div class="input-group">
+                    <label for="Telefone">Telefone:</label>
+                    <input type="text" id="Ano" name="Ano">
+                </div>
+                <div class="input-group">
+                    <label for="CEP">CEP:</label>
+                    <input type="text" id="Ano" name="Ano">
+                </div>
+                <h2>Editar Dados do Veículo</h2>
+                <div class="input-group">
+                    <label for="Modelo">Modelo:</label>
+                    <input type="text" id="Modelo" name="Modelo">
+                </div>
+                <div class="input-group">
+                    <label for="Ano">Ano:</label>
+                    <input type="text" id="Placa" name="Placa">
+                </div>
+                <div class="input-group">
+                    <label for="Placa">Placa:</label>
+                    <input type="text" id="Placa" name="Placa">
+                </div>
+                <div class="input-group">
+                    <label for="Cor">Cor:</label>
+                    <input type="text" id="Placa" name="Placa">
+                </div>
+                <div class="button">
+                    <button type="button" id="saveButton" onclick="showMessageSuccess()">Salvar</button>
+                    <button type="button" id="returnButton">Voltar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Porto Auto-Check</p>
+    </footer>
+
+    <script>
+        document.getElementById("returnButton").addEventListener("click", function() {
+            window.location.href = "perfil.html";
+        });
+        document.getElementById("saveButton").addEventListener("click", function() {
+            window.location.href = "perfil.html";
+        });
+
+        function showMessageSuccess() {
+            alert("Dados atualizados com sucesso!");
+        }
+    </script>
+</body>
+
+</html>

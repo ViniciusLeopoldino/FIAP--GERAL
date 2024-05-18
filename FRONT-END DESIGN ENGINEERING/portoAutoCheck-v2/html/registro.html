@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/registro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+    <form id="cadastro">
+        <h1>Cadastre-se</h1>
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="input-group">
+                <label for="Veiculo">Veiculo:</label>
+                <input type="text" id="Veiculo" name="Veiculo" required>
+            </div>
+            <div class="input-group">
+                <label for="Ano">Ano:</label>
+                <input type="text" id="Ano" name="Ano" required>
+            </div>
+            <div class="input-group">
+                <label for="Modelo">Modelo:</label>
+                <input type="text" id="Modelo" name="Modelo" required>
+            </div>
+            <div class="input-group">
+                <label for="Placa">Placa:</label>
+                <input type="text" id="Placa" name="Placa" required>
+            </div>
+            <p></p>
+            <div class="button">
+                <button type="save" id="saveButton" onclick="showMessageSuccess()">Registrar</button>
+                <button type="return" id="returnButton">Voltar</button>
+            </div>
+            <script>
+                function showMessageSuccess() {
+                    alert("Cadastro realizado com sucesso!");
+                }
+            </script>
+        </form>
+    </form>
+    </div>
+    <script src="../javaScript/registro.js"></script>
+</body>
+</html>

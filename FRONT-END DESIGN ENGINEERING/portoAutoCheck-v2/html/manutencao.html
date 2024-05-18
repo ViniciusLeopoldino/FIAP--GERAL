@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção</title>
+    <link rel="stylesheet" type="text/css" href="../css/manutencao.css">
+</head>
+
+<body>
+    <header>
+        <h1>Manutenções</h1>
+    </header>
+
+    <main>
+        <div id="container">
+            <ul>
+                <form id="cadastro">
+                    <div class="input-group">
+                        <label for="ultima_manutencao">Última Manutenção:</label>
+                        <div id="ultima_manutencao" class="text-content">Pastilha de Freio</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="data_ultima_manutencao">Data:</label>
+                        <div id="data_ultima_manutencao" class="text-content">01/12/2023</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="quilometragem_ultima_manutencao">Quilometragem:</label>
+                        <div id="quilometragem_ultima_manutencao" class="text-content">60.000</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="tipo_ultima_manutencao">Tipo:</label>
+                        <div id="tipo_ultima_manutencao" class="text-content">Corretiva</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="proxima_manutencao">Próxima Manutenção:</label>
+                        <div id="proxima_manutencao" class="text-content">Correia Dentada</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="data_proxima_manutencao">Data:</label>
+                        <div id="data_proxima_manutencao" class="text-content">22/01/2024</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="quilometragem_proxima_manutencao">Quilometragem:</label>
+                        <div id="quilometragem_proxima_manutencao" class="text-content">75.000</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="tipo_proxima_manutencao">Tipo:</label>
+                        <div id="tipo_proxima_manutencao" class="text-content">Preventiva</div>
+                    </div>
+                    <p>
+                    <div class="button">
+                        <button type="button" id="editButton">Agendar Nova Manutenção</button>
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Porto Auto Check</p>
+    </footer>
+
+    <script>
+        document.getElementById("editButton").addEventListener("click", function () {
+            window.location.href = "ag-manutencao.html";
+        });
+    </script>
+</body>
+
+</html>
+

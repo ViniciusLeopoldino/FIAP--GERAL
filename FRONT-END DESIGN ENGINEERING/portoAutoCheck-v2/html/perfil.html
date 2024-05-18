@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="../css/perfil.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu perfil</h1>
+    </header>
+
+    <main>
+        <div id="container">
+            <h2>Dados pessoais</h2>
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <div id="nome" class="text-content">João da Silva</div>
+            </div>
+            <div class="input-group">
+                <label for="cpf">CPF:</label>
+                <div id="cpf" class="text-content">444.555.666-77</div>
+            </div>
+            <div class="input-group">
+                <label for="telefone">Telefone:</label>
+                <div id="telefone" class="text-content">(11) 9 1122-3344</div>
+            </div>
+            <div class="input-group">
+                <label for="cep">CEP:</label>
+                <div id="cep" class="text-content">03121-020</div>
+            </div>
+
+            <h2>Dados do Veículo</h2>
+            <div class="input-group">
+                <label for="modelo">Modelo:</label>
+                <div id="modelo" class="text-content">Fiat Fastback</div>
+            </div>
+            <div class="input-group">
+                <label for="ano">Ano:</label>
+                <div id="ano" class="text-content">2024</div>
+            </div>
+            <div class="input-group">
+                <label for="placa">Placa:</label>
+                <div id="placa" class="text-content">ABC1d23</div>
+            </div>
+            <div class="input-group">
+                <label for="cor">Cor:</label>
+                <div id="cor" class="text-content">Vermelho</div>
+            </div>
+
+            <div class="button">
+                <button type="button" id="editButton">Editar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Porto Auto-Check</p>
+    </footer>
+
+    <script>
+        document.getElementById("editButton").addEventListener("click", function() {
+            window.location.href = "editar-perfil.html";
+        });
+    </script>
+</body>
+
+</html>

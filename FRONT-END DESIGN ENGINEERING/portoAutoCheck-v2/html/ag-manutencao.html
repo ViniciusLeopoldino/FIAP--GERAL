@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção</title>
+    <link rel="stylesheet" type="text/css" href="../css/ag-manutencao.css">
+</head>
+
+<body>
+    <!-- Conteúdo do menu Manutenção -->
+    <div id="conteudo3" class="conteudo">
+        <h1>Manutenções</h1>
+        <!-- Container para agendar manutenções -->
+        <div id="container">
+            <ul>
+                <form id="cadastro">
+                    <h2>Agendar Manutenção</h2>
+                    <div class="input-group">
+                        <label for="oficina-proxima">Selecione o veículo:</label>
+                        <select name="oficina">
+                            <option value="">Selecione...</option>
+                            <option value="Oficina 1">Veículo 1</option>
+                            <option value="Oficina 2">Veículo 2</option>
+                            <option value="Oficina 3">Veículo 3</option>
+                            <option value="Oficina 4">Veículo 4</option>
+                            <option value="Oficina 5">Veículo 5</option>
+                        </select>
+                    </div>
+                        <div class="input-group">
+                            <label for="oficina-proxima">Oficina mais próxima:</label>
+                            <select name="oficina">
+                                <option value="">Selecione...</option>
+                                <option value="Oficina 1">Oficina 1</option>
+                                <option value="Oficina 2">Oficina 2</option>
+                                <option value="Oficina 3">Oficina 3</option>
+                                <option value="Oficina 4">Oficina 4</option>
+                                <option value="Oficina 5">Oficina 5</option>
+                            </select>
+                        </div>
+                    
+                        <p>
+                    <div class="input-group">
+                        <label for="serviço">Selecione o serviço:</label>
+                        <select name="Escolha">
+                            <option value="">Selecione...</option>
+                            <option value="Pastilha de Freio">Pastilha de Freio</option>
+                            <option value="Correia Dentada">Correia Dentada</option>
+                            <option value="Troca de Óleo">Troca de Óleo</option>
+                            <option value="Troca de Pneu">Troca de Pneu</option>
+                            <option value="Troca de Bateria">Troca de Bateria</option>
+                            <option value="Revisão">Revisão Geral</option>
+                        </select>   
+                    </div>
+                    <div class="input-group">
+                        <label for="data">Data:</label>
+                        <input id="date" type="date" />
+                    </div>
+                    <p>
+                    <div class="input-group">
+                        <label for="quilometragem">Quilometragem Atual:</label>
+                        <input id="km" class="text-content"></input>
+                    </div>
+                    <div class="input-group">
+                        <label for="tipo">Tipo:</label>
+                        <select name="tipo">
+                            <option value="">Selecione...</option>
+                            <option value="Pastilha de Freio">Corretiva</option>
+                            <option value="Correia Dentada">Preventiva</option>
+                        </select>   
+                    </div>
+                </form>
+                <p>
+                <div class="button">
+                    <button type="button" id="saveButton" onclick="showSuccessMessage()">Agendar</button>
+                    <button type="button" id="returnButton">Voltar</button>
+                </div>
+                <script>
+                document.getElementById("returnButton").addEventListener("click", function() {
+                    window.location.href = "manutencao.html";
+                });
+                document.getElementById("saveButton").addEventListener("click", function() {
+                    window.location.href = "manutencao.html";
+                });
+                    function showSuccessMessage() {
+                        alert("Agendamento realizado com sucesso!");
+                    }
+                </script>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

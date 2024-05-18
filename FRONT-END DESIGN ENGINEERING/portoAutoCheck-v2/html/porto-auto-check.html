@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto Auto-Check</title>
+    <link rel="stylesheet" type="text/css" href="../css/porto-auto-check.css">
+</head>
+
+<body>
+    <header>
+        <h1>Porto Auto-Check</h1>
+    </header>
+
+    <main>
+        <section id="conteudo2" class="conteudo">
+            <div id="container">
+                <h2>Autoatendimento</h2>
+                <div class="button">
+                    <button type="button" id="autoButton">Iniciar Autodiagnóstico</button>
+                </div>
+                <div class="button">
+                    <button type="button" id="orcButton">Iniciar Auto Orçamento</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Porto Auto-Check</p>
+    </footer>
+
+    <script>
+        document.getElementById("autoButton").addEventListener("click", function() {
+            window.location.href = "autoatendimento.html";
+        });
+        document.getElementById("orcButton").addEventListener("click", function() {
+            window.location.href = "auto-orcamento.html";
+        });
+    </script>
+</body>
+
+</html>

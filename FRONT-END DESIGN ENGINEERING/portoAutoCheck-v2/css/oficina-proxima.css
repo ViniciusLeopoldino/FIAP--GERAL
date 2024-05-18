@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+  #address, #addressForm button, button {
+    width: 80%; /* Ajuste de largura para dispositivos menores */
+  }
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#conteudo4 {
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #000000;
+  width: 100%;
+  height: auto;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+  padding-top: 10px;
+  text-align: center;
+}
+
+#addressForm {
+  margin-bottom: 20px;
+}
+
+#address {
+  width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+#addressForm button, button {
+  padding: 10px 20px;
+  background-color: #30C5FF;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#mapFrame {
+  width: 95%;
+  height: 300px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+  
