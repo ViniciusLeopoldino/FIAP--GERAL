@@ -1,0 +1,1 @@
+// Fazer testes de redirecionamento de página com o método window.location.href
