@@ -1,24 +1,24 @@
 @media screen and (max-width: 768px) {
     #container, #container2 {
-        width: 90%; /* Reduz a largura dos contêineres para telas menores */
-        margin: 0 auto; /* Centraliza os contêineres horizontalmente */
+        width: 90%;
+        margin: 0 auto;
     }
     #container h2, #container2 h2 {
-        text-align: center; /* Alinha o texto centralmente */
-        font-size: 24px; /* Define o tamanho da fonte para telas menores */
+        text-align: center;
+        font-size: 24px;
     }
     .input-group {
-        width: 100%; /* Define a largura dos grupos de entrada como 100% para telas menores */
-        margin-right: 0; /* Remove a margem direita dos grupos de entrada */
-        margin-left: 0; /* Remove a margem esquerda dos grupos de entrada */
-        margin-bottom: 10px; /* Adiciona uma margem inferior para separar os grupos de entrada */
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
     }
     .input-group div, label {
-        padding: 9px; /* Adiciona preenchimento aos grupos de entrada */
-        width: 90%; /* Define a largura dos grupos de entrada como 90% para telas menores */
-        margin: 0 auto; /* Centraliza os grupos de entrada horizontalmente */
+        padding: 9px;
+        width: 90%;
+        margin: 0 auto;
     }
-    button {
+    .button {
         width: 100%;
     }
 }
@@ -27,43 +27,23 @@ html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#container, #container2 {
+#container {
     border-radius: 30px;
     background-color: #ffffff;
     color: #000000;
-    width: 100%;
+    width: auto;
     height: auto;
     position: right;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
-    padding-top: 10px;
+    padding: 20px;
     text-align: center;
-}
-
-#container h2, #container2 h2 {
-    text-align: center;
-}
-     
-.input-group {
-    display: inline-block;
-    margin-right: 5%;
-    margin-left: 2%;
-    vertical-align: top;
-    width: 40%;
-}
-
-.input-group label {
-    text-align: left;
-    display: block;
-    margin-bottom: 15px;
-}
+  }
   
-.input-group div {
-    border: 1px solid #ccc;
-    padding: 9px;
-    border-radius: 30px;
-}
-
-button {
+  #container h2 {
+    text-align: center;
+  }
+  
+  .button a {
     padding: 10px 30px;
     background-color: #30C5FF;
     color: #fff;
@@ -71,10 +51,31 @@ button {
     border-radius: 30px;
     cursor: pointer;
     margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    text-decoration: none;
+  }
   
-button:last-child {
+  button:last-child {
     margin-right: 0;
-}
+  }
+  
+  .input-group {
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 2%;
+    vertical-align: top;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    text-align: left;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .input-group div {
+    border: 1px solid #ccc;
+    padding: 9px;
+    border-radius: 30px;
+  }
+  

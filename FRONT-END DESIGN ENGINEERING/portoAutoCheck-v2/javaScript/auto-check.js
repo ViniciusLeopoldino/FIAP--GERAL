@@ -17,8 +17,3 @@ function sendMessage() {
   userInput.value = ""; // Limpa o campo de entrada após enviar a mensagem
 }
 
-    // Redirecionar para a página de login
-const returnButton = document.getElementById("returnButton");
-returnButton.addEventListener("click", function() {
-    window.location.href = "porto-auto-check.html";
-});

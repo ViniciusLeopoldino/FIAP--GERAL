@@ -18,10 +18,9 @@
             <div id="container">
                 <h2>Autoatendimento</h2>
                 <div class="button">
-                    <button type="button" id="autoButton">Iniciar Autodiagnóstico</button>
-                </div>
-                <div class="button">
-                    <button type="button" id="orcButton">Iniciar Auto Orçamento</button>
+                    <a href="auto-diag.html" id="auto-button" class="button">Iniciar Autodiagnóstico</a>
+                    <br>
+                    <a href="auto-orc.html" id="orc-button" class="button">Iniciar Auto Orçamento</a>
                 </div>
             </div>
         </section>
@@ -31,15 +30,6 @@
         <p>&copy; 2024 Porto Auto-Check</p>
     </footer>
 
-    <script>
-        // Script para redirecionar para a página de autoatendimento ou auto-orçamento
-        document.getElementById("autoButton").addEventListener("click", function() {
-            window.location.href = "autoatendimento.html";
-        });
-        document.getElementById("orcButton").addEventListener("click", function() {
-            window.location.href = "auto-orcamento.html";
-        });
-    </script>
 </body>
 
 </html>

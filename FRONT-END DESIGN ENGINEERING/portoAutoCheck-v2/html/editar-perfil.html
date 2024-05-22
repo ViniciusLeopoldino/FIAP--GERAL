@@ -51,8 +51,8 @@
                     <input type="text" id="Placa" name="Placa">
                 </div>
                 <div class="button">
-                    <button type="button" id="saveButton" onclick="showMessageSuccess()">Salvar</button>
-                    <button type="button" id="returnButton">Voltar</button>
+                    <a href="perfil.html" id="saveButton" class="button" onclick="showMessageSuccess()">Salvar</a>
+                    <a href="perfil.html" id="returnButton" class="button">Voltar</a>
                 </div>
             </form>
         </div>
@@ -63,14 +63,6 @@
     </footer>
 
     <script>
-        // Script para redirecionar para a página de perfil
-        document.getElementById("returnButton").addEventListener("click", function() {
-            window.location.href = "perfil.html";
-        });
-        document.getElementById("saveButton").addEventListener("click", function() {
-            window.location.href = "perfil.html";
-        });
-
         function showMessageSuccess() {
             alert("Dados atualizados com sucesso!");
         }

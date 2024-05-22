@@ -1,7 +1,8 @@
 @media screen and (max-width: 768px) {
-  button {
+  .button {
     padding: 10px 20px;
     font-size: 14px;
+    width: 100%;
   }
 }
 
@@ -19,16 +20,18 @@ html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
   padding-top: 10px;
   text-align: center;
+  padding: 20px;
 }
 
-button {
-  padding: 15px 30px;
+.button a {
+  padding: 10px 30px;
   background-color: #30C5FF;
   color: #fff;
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  margin: 10px;
-  width: 100%;
-  max-width: 200px;
+  margin-right: 10px;
+  text-decoration: none;
+  display: inherit;
+  width: auto;
 }

@@ -15,6 +15,7 @@
 
     <main>
         <div id="container">
+            <h2>Consulta de Manutenções</h2>
             <ul>
                 <form id="cadastro">
                     <div class="input-group">
@@ -51,7 +52,7 @@
                     </div>
                     <p>
                     <div class="button">
-                        <button type="button" id="editButton">Agendar Nova Manutenção</button>
+                        <a href="ag-manutencao.html" id="edit-button" class="button">Agendar Nova Manutenção</a>
                     </div>
                 </form>
             </ul>
@@ -61,12 +62,6 @@
     <footer>
         <p>© 2024 Porto Auto Check</p>
     </footer>
-
-    <script>
-        document.getElementById("editButton").addEventListener("click", function () {
-            window.location.href = "ag-manutencao.html";
-        });
-    </script>
 </body>
 
 </html>

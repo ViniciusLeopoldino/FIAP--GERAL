@@ -16,6 +16,8 @@
     <main>
         <div id="container">
             <h2>Dados pessoais</h2>
+            <ul>
+                <form id="perfil">
             <div class="input-group">
                 <label for="nome">Nome:</label>
                 <div id="nome" class="text-content">João da Silva</div>
@@ -31,8 +33,7 @@
             <div class="input-group">
                 <label for="cep">CEP:</label>
                 <div id="cep" class="text-content">03121-020</div>
-            </div>
-
+            </div> 
             <h2>Dados do Veículo</h2>
             <div class="input-group">
                 <label for="modelo">Modelo:</label>
@@ -50,10 +51,11 @@
                 <label for="cor">Cor:</label>
                 <div id="cor" class="text-content">Vermelho</div>
             </div>
-
             <div class="button">
-                <button type="button" id="editButton">Editar</button>
+                <a href="editar-perfil.html" id="editButton" class="button">Editar</a>
             </div>
+            </form>
+            </ul>
         </div>
     </main>
 
@@ -61,12 +63,6 @@
         <p>&copy; 2024 Porto Auto-Check</p>
     </footer>
 
-    <script>
-        // Script para redirecionar para a página de edição de perfil
-        document.getElementById("editButton").addEventListener("click", function() {
-            window.location.href = "editar-perfil.html";
-        });
-    </script>
 </body>
 
 </html>

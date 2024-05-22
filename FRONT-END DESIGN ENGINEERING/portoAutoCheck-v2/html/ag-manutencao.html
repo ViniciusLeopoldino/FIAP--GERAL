@@ -9,10 +9,9 @@
 </head>
 
 <body>
-    <!-- Conteúdo do menu Manutenção -->
     <div id="conteudo3" class="conteudo">
         <h1>Manutenções</h1>
-        <!-- Container para agendar manutenções -->
+        <main>
         <div id="container">
             <ul>
                 <form id="cadastro">
@@ -39,7 +38,6 @@
                                 <option value="Oficina 5">Oficina 5</option>
                             </select>
                         </div>
-                    
                         <p>
                     <div class="input-group">
                         <label for="serviço">Selecione o serviço:</label>
@@ -73,16 +71,15 @@
                 </form>
                 <p>
                 <div class="button">
-                    <button type="button" id="saveButton" onclick="showSuccessMessage()">Agendar</button>
-                    <button type="button" id="returnButton">Voltar</button>
+                    <a href="manutencao.html" id="save-button" class="button" onclick="showSuccessMessage()">Agendar</a>
+                    <a href="manutencao.html" id="return-button" class="button">Voltar</a>
                 </div>
+            </main>
+                <footer>
+                    <p>© 2024 Porto Auto Check</p>
+                </footer>
+
                 <script>
-                document.getElementById("returnButton").addEventListener("click", function() {
-                    window.location.href = "manutencao.html";
-                });
-                document.getElementById("saveButton").addEventListener("click", function() {
-                    window.location.href = "manutencao.html";
-                });
                     function showSuccessMessage() {
                         alert("Agendamento realizado com sucesso!");
                     }

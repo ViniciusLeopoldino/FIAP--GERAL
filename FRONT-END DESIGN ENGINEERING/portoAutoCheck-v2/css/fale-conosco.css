@@ -23,12 +23,8 @@ html {
   height: auto;
   position: relative;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
-  padding-top: 10px;
+  padding: 20px;
   text-align: center;
-}
-
-#faleConosco {
-  margin-bottom: 20px;
 }
 
 .input-group label {
@@ -67,7 +63,6 @@ textarea {
   border-radius: 30px;
   cursor: pointer;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 
